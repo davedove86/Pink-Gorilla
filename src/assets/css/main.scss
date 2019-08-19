@@ -1,0 +1,15 @@
+// 0-tools
+@import '0-tools/normalize';
+
+// 1-base
+@import '1-base/vars';
+@import '1-base/base';
+
+// 2-modules
+@import '2-modules/header';
+@import '2-modules/footer';
+
+// 3-layouts
+
+// 4-pages
+@import '4-pages/home';

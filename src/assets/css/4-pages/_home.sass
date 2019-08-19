@@ -1,0 +1,357 @@
+.about-wrap
+  text-align: center
+  margin: 0 auto
+  p
+    max-width: 700px
+    margin: 15px auto
+    padding: 0 20px
+  img
+    height: 200px
+    width: 200px
+
+.flex-wrap
+  display: flex
+  width: 100%
+  padding: 20px 0
+  margin: 0 auto
+
+  .flex-items
+    width: 24%
+    text-align: center
+    margin: 20px auto
+    img
+      height: 180px
+      width: 180px
+      border-radius: 100%
+      border-color: rgba(0, 0, 0, 0.4)
+      transition: all ease-in-out 300ms
+      &:hover
+        box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2)
+        transform: translate(0px, -10px) scale(1.2)
+    h5
+      color: #da3b7f
+      font-size: 25px
+      font-weight: 800
+      padding: 15px 0 5px 0
+      margin: 0
+    p
+      color: #454343
+      font-size: 14px
+      max-width: 400px
+      margin: 0 auto
+      padding: 0 20px 15px 20px
+
+@media (max-width: 990px)
+  .flex-wrap
+    display: block
+    text-align: center
+    padding: 0
+    margin: 0 auto
+    .flex-items
+      width: auto
+      text-align: center
+      padding-bottom: 70px
+      img, h5, p
+        display: block
+        margin: 10px auto
+        text-align: center
+
+.work
+ text-align: center
+ h5
+   color: #da3b7f
+   font-size: 25px
+   font-weight: 800
+   padding: 15px 0 5px 0
+   margin: 0
+ .interior
+   height: 180px
+   width: 180px
+   border-radius: 100%
+   border-color: rgba(0, 0, 0, 0.4)
+   transition: all ease-in-out 300ms
+ .interior-para
+   color: #454343
+   font-size: 14px
+   max-width: 400px
+   margin: 0 auto
+   padding: 0 20px 15px 20px
+ button
+   margin: 30px 0
+
+.w3-content
+  height: 700px
+  max-width: 100%
+  margin: 0 auto
+  overflow: hidden
+  
+  .w3-animate-fading
+    animation: fading 8s infinite
+  img
+    width: 100%
+    border-radius: 10px
+    box-shadow: 0px 37px 20px -25px rgba(0, 0, 0, 0.7)
+
+@-webkit-keyframes fading
+  0%
+    opacity: 0
+
+  50%
+    opacity: 1
+
+  100%
+    opacity: 0
+
+
+@keyframes fading
+  0%
+    opacity: 0
+
+  50%
+    opacity: 1
+
+  100%
+    opacity: 0
+
+
+.full-width-block
+  display: table
+  background: -webkit-gradient(linear, left top, left bottom, from(#cd154f), color-stop(90%, #fff))
+  background: linear-gradient(-180deg, #cd154f 0%, #fff 90%)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  background-color: #da3b7f
+  background-attachment: fixed
+  height: auto
+  width: 100%
+  padding: 50px 0
+  vertical-align: middle
+  .width-text
+    display: table-cell
+    vertical-align: middle
+    p, h4
+      color: #fff
+      font-style: italic
+      text-align: center
+      margin: 0
+      padding: 0 30px
+    p
+      padding-bottom: 20px
+
+.partners
+  .flex-items
+    width: 33.333
+    img
+      height: 100px
+      width: 200px
+      border-radius: 20%
+  p
+    max-width: 600px
+    text-align: center
+    margin: 0 auto
+    padding: 0 20px
+
+.work-wrap 
+ 
+ // Gallery Paragraph
+ p
+  text-align: center
+  max-width: 700px
+  margin: 0 auto 30px auto
+  padding: 0 20px
+ 
+.gallery-wrap
+ display: flex
+ flex-wrap: wrap
+ justify-content: center
+ max-width: 90%
+ margin: 0 auto
+ padding-bottom: 30px
+ ul
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  padding: 0
+ img
+  height: 500px
+  width: 500px
+  max-width: 100%
+  padding: 5px
+  border-radius: 20px
+
+.testimonials
+  .test-blurb
+    padding: 20px 0
+    h4, p
+      text-align: center
+      margin: 0 auto
+      max-width: 700px
+      padding: 0 20px
+    h4
+      color: #da3b7f
+      font-size: 23px
+      font-weight: 400
+    p
+      color: #454343
+      font-size: 16px
+
+  .clients-wrap
+    ul
+      display: flex
+      width: 100%
+      padding: 20px 0
+    
+    .clients
+      display: flex
+      flex-wrap: wrap
+
+      li
+        width: 50%
+        text-align: center
+        img
+          height: 200px
+          width: 200px
+          border-radius: 50%
+        h5
+          color: #da3b7f
+          font-size: 18px
+          font-weight: 600
+          margin: 0
+          padding: 15px 0
+          text-align: center
+        p
+          color: #454343
+          font-size: 16px
+          margin: 0 auto
+          padding: 0 20px 20px
+          text-align: center
+
+@media (max-width: 850px)
+  .testimonials .clients-wrap
+    display: block
+    ul
+      display: block
+      text-align: center
+      padding: 0
+      margin: 0 auto
+    .clients
+      li
+        width: auto
+        text-align: center
+      img, h5
+        display: block
+        margin: 10px auto
+        text-align: center
+      p
+        padding: 0 20px
+
+.contact-us
+  p
+    text-align: center
+    max-width: 700px
+    margin: 0 auto
+    padding: 0 20px
+  img
+    height: 100px
+    width: 100px
+    border-radius: 100%
+    border-color: rgba(0, 0, 0, 0.4)
+    -webkit-transition: all ease-in-out 300ms
+    transition: all ease-in-out 300ms
+    &:hover
+      -webkit-box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2)
+      box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2)
+      -webkit-transform: translate(0px, -10px) scale(1.2)
+      transform: translate(0px, -10px) scale(1.2)
+  .flex-wrap-contact
+    
+    
+    display: flex
+  
+    flex-wrap: wrap
+    width: 50%
+    padding: 20px 0
+    margin: 100px auto
+    .flex-items-contact
+      margin: 0 auto
+  .contact-form
+    height: auto
+    width: 100%
+    background-image: url(../img/contact/contact-bg.png)
+    background-size: cover
+    background-position: center
+    padding: 30px 0
+    -ms-input-placeholder-color: #123
+    -moz-placeholder-color: #123
+    form
+      max-width: 450px
+      margin: 0 auto 30px
+      padding: 0 20px
+      input, textarea
+        background: #fff
+        width: 100%
+        height: 50px
+        border: 2px solid #da3b7f
+        -webkit-box-sizing: border-box
+        box-sizing: border-box
+        padding: 10px
+        -webkit-appearance: none
+        -moz-appearance: none
+        appearance: none
+        font-size: 16px
+        margin: 0 0 20px 0
+        color: #da3b7f
+        font-weight: bold
+      input:focus
+        outline: none
+        border-color: #da3b7f
+      textarea
+        &:focus
+          outline: none
+          border-color: #da3b7f
+        height: 10em
+        resize: none
+      .submit-wrap
+        text-align: center
+        margin-top: 20px
+      [type='submit']
+        display: inline-block
+        background: #da3b7f
+        max-height: 50px
+        max-width: 200px
+        font-size: 18px
+        font-weight: bold
+        color: #fff
+        text-transform: uppercase
+        border-radius: 8px
+        -webkit-box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4)
+        box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4)
+        cursor: pointer
+        -webkit-transition: all ease-in-out 300ms
+        transition: all ease-in-out 300ms
+        &:hover
+          -webkit-box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2)
+          box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2)
+          -webkit-transform: translate(0px, -10px) scale(1.2)
+          transform: translate(0px, -10px) scale(1.2)
+      fieldset
+        border: none
+    \::-webkit-input-placeholder, ::-moz-placeholder
+      color: #123
+  .contact-para
+    padding: 50px 0
+
+@media (max-width: 600px)
+  .contact-us .flex-wrap-contact
+    display: block
+    text-align: center
+    padding: 0
+    margin: 0 auto
+    .flex-items-contact
+      width: auto
+      text-align: center
+      img
+        display: block
+        margin: 10px auto
+        text-align: center
